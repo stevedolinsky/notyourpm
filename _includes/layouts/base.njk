@@ -40,7 +40,16 @@
 		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link">{{ metadata.title }}</a>
+			<a href="/" class="home-link">
+				<!-- logo image -->
+				<img
+					src="/img/notyourpm-sitelogo.png"
+					alt="{{ metadata.title }}"
+					class="site-logo"
+				/>
+   		 		<!-- optional: keep the site name next to it -->
+    			<span class="site-name">{{ metadata.title }}</span>
+  			</a>
 
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 			<nav>

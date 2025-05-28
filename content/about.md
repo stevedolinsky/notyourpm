@@ -6,4 +6,4 @@ const eleventyNavigation = {
 ---
 # About
 
-I am a person that writes stuff.
+Welcome to the ramblings of a father, program manager, toxic-water fisherman, hunter, hiker, camper, gardener, distraction artist, and overall person who spends more time doing what they don't want to do than what they want to do.
